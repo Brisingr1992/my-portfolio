@@ -1,0 +1,86 @@
+{
+  "backgroundType": "gradient",
+  "plainBackgroundMode": "daylight",
+  "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
+  "FirstName": "Saushthav",
+  "MiddleName": "",
+  "LastName": "Saxena",
+  "devDesc": "| Engineer | Full Stack Developer | Software Developer | MMA Enthusiast ",
+  "icons": [
+    {
+      "id": 0,
+      "image": "fa-github",
+      "url": "https://github.com/Brisingr1992",
+      "style": "socialicons"
+    },
+    {
+      "id": 1,
+      "image": "fa-facebook",
+      "url": "https://www.facebook.com/saushthav1",
+      "style": "socialicons"
+    },
+    {
+      "id": 2,
+      "image": "fa-instagram",
+      "url": "https://www.instagram.com/gooner2804/",
+      "style": "socialicons"
+    },
+    {
+      "id": 3,
+      "image": "fa-linkedin",
+      "url": "https://www.linkedin.com/in/saushthav/",
+      "style": "socialicons"
+    },
+    {
+      "id": 4,
+      "image": "fa-twitter",
+      "url": "https://twitter.com/saushthav2",
+      "style": "socialicons"
+    }
+  ],
+  "skills": {
+    "heading": "My Skills",
+    "skills": {
+      "languages": {
+        "labels":["Java", "JavaScript(ES6)","Ruby","C","Python"],
+        "data": [{"x": 1, "y": 8}, {"x": 2, "y": 9}, {"x": 3, "y": 9}, {"x": 4, "y": 10}, {"x": 5, "y": 7}]
+      },
+      "versionControl": {
+        "labels": ["Github", "Gitlab", "Bitbucket", "Svn"],
+        "data": [{"x": 1, "y": 10}, {"x": 2, "y": 8}, {"x": 3, "y": 9}, {"x": 4, "y": 6}]
+      },
+      "frontEnd": {
+        "labels": ["Html5", "CSS3", "Scss", "Slim", "Mustache", "jQuery", "ReactJs", "ReduxJs","Bootstrap"],
+        "data": [{"x": 1, "y": 8},{"x": 2, "y": 8},{"x": 3, "y": 9},{"x": 4, "y": 9},{"x": 5, "y": 7},{"x": 6, "y": 9},{"x": 7, "y": 9},{"x": 8, "y": 9},{"x": 9, "y": 8}]
+      },
+      "backEnd": {
+        "labels": ["Ruby on Rails","NodeJS","Heroku","AWS(S2, EC2)","Webpack","Foreman"],
+        "data": [{"x": 1, "y": 8},{"x": 2, "y": 7},{"x": 3, "y": 9},{"x": 4, "y": 9},{"x": 5, "y": 7},{"x": 6, "y": 9}]
+      },
+      "databases": {
+        "labels": ["PostgreSql", "Mysql", "MongoDB", "Cassandra", "Dynamo DB"],
+        "data": [{"x": 1, "y": 10},{"x": 2, "y": 8},{"x": 3, "y": 8},{"x": 4, "y": 6},{"x": 5, "y": 7}]
+      },
+      "coursework": {
+        "labels": ["Data Stuctures", "Algorithms", "Distributed Systems", "Design Patterns","Computer Networks", "Machine Learning"],
+        "data": [{"x": 1, "y": 9},{"x": 2, "y": 10},{"x": 3, "y": 9},{"x": 4, "y": 8},{"x": 5, "y": 7},{"x": 6, "y": 6}]
+      }
+    },
+    "technical-skills": ["Java", "JavaScript(ES6)","Ruby","C","Github","PostgreSQL","MongoDB","HTML5","CSS3","SCSS","SLIM","Sockets","Bootstrap","JSON","Unix","AWS","Heroku","GraphQL","Ruby on Rails","ReactJS","ReduxJS","ReduxJS","NodeJS","RSpec","jQuery"],
+    "colors": ["violet", "cornflowerblue", "gold", "orange","turquoise", "tomato", "greenyellow"],
+    "symbols": ["circle", "star", "square", "triangleUp","triangleDown", "diamond", "plus"]
+  },
+  "aboutHeading": "About Me",
+  "showInstaProfilePic": true,
+  "instaLink": "https://www.instagram.com/",
+  "instaUsername": "gooner2804",
+  "instaQuerry": "/?__a=1",
+  "aboutDescription": "I am a computer engineer with a Masters in CS from Binghamton University and a Bachelors in Information and Communication Technology from Dhirubhai Ambani Institute Of Information And Communication Technology (DAIICT). I am currently looking for jobs after completion of my masters degree. I have full-stack experience in designing UIs, developing frontend apps, implementing APIs, and deploying and managing servers in a test-driven environment. I am very passionate about distributed cloud systems, design patterns, and low level system optimisation.",
+  "projectHeading": "Recent Projects",
+  "gitHubLink": "https://api.github.com/users/",
+  "gitHubUsername": "Brisingr1992",
+  "gitHubQuerry": "/repos?sort=updated&direction=desc",
+  "projectsLength": 4,
+  "showNavigationbar": true,
+  "showBlog": true
+}

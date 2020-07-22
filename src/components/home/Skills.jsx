@@ -1,5 +1,5 @@
 import React from "react";
-import {VictoryChart, VictoryScatter, VictoryGroup, VictoryBar, VictoryLabel} from 'victory';
+import {VictoryScatter, VictoryBar, VictoryLabel} from 'victory';
 import {
   skills
 } from "../../editable-stuff/configurations.json";
@@ -31,10 +31,9 @@ class Skills extends React.Component {
     return skillsList.map((skill, index) => {
       const scaledIndex = Math.floor(index % 7);
       return {
-        x: Math.floor(Math.random() * 50),
+        x: Math.floor(Math.random() * 100),
         y: Math.floor(Math.random() * 100) + 2,
-        size: Math.floor(Math.random() * 10),
-        symbol: symbols[scaledIndex],
+        size: Math.floor(Math.random() * 30 + 12),
         fill: colors[index % 7],
         skill: skill,
         opacity: 0.6,
@@ -76,9 +75,11 @@ class Skills extends React.Component {
                     data: {
                       fill: ({ datum }) => datum.fill,
                       opacity: ({ datum }) => datum.opacity
-                    }
+                    },
+                    labels: { fontSize: "8px" }
                   }}
                   labels={({ datum }) => datum.skill}
+                  labelComponent={<VictoryLabel dy={8}/>}
                 />
               {/* </VictoryChart> */}
             </div>

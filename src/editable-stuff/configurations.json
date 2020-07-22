@@ -38,37 +38,37 @@
       "style": "socialicons"
     }
   ],
+  "contactIcons": [
+    {
+      "id": 0,
+      "image": "fa-map-marker-alt",
+      "text": "Binghamton, NY (13902), USA"
+    },
+    {
+      "id": 1,
+      "image": "fa-phone",
+      "text": "+1-111-111-1111"
+    },
+    {
+      "id": 2,
+      "image": "fa-envelope",
+      "text": "saxenasaushthav@gmail.com"
+    }
+  ],
   "skills": {
     "heading": "My Skills",
-    "skills": {
-      "languages": {
-        "labels":["Java", "JavaScript(ES6)","Ruby","C","Python"],
-        "data": [{"x": 1, "y": 8}, {"x": 2, "y": 9}, {"x": 3, "y": 9}, {"x": 4, "y": 10}, {"x": 5, "y": 7}]
-      },
-      "versionControl": {
-        "labels": ["Github", "Gitlab", "Bitbucket", "Svn"],
-        "data": [{"x": 1, "y": 10}, {"x": 2, "y": 8}, {"x": 3, "y": 9}, {"x": 4, "y": 6}]
-      },
-      "frontEnd": {
-        "labels": ["Html5", "CSS3", "Scss", "Slim", "Mustache", "jQuery", "ReactJs", "ReduxJs","Bootstrap"],
-        "data": [{"x": 1, "y": 8},{"x": 2, "y": 8},{"x": 3, "y": 9},{"x": 4, "y": 9},{"x": 5, "y": 7},{"x": 6, "y": 9},{"x": 7, "y": 9},{"x": 8, "y": 9},{"x": 9, "y": 8}]
-      },
-      "backEnd": {
-        "labels": ["Ruby on Rails","NodeJS","Heroku","AWS(S2, EC2)","Webpack","Foreman"],
-        "data": [{"x": 1, "y": 8},{"x": 2, "y": 7},{"x": 3, "y": 9},{"x": 4, "y": 9},{"x": 5, "y": 7},{"x": 6, "y": 9}]
-      },
-      "databases": {
-        "labels": ["PostgreSql", "Mysql", "MongoDB", "Cassandra", "Dynamo DB"],
-        "data": [{"x": 1, "y": 10},{"x": 2, "y": 8},{"x": 3, "y": 8},{"x": 4, "y": 6},{"x": 5, "y": 7}]
-      },
-      "coursework": {
-        "labels": ["Data Stuctures", "Algorithms", "Distributed Systems", "Design Patterns","Computer Networks", "Machine Learning"],
-        "data": [{"x": 1, "y": 9},{"x": 2, "y": 10},{"x": 3, "y": 9},{"x": 4, "y": 8},{"x": 5, "y": 7},{"x": 6, "y": 6}]
-      }
-    },
-    "technical-skills": ["Java", "JavaScript(ES6)","Ruby","C","Github","PostgreSQL","MongoDB","HTML5","CSS3","SCSS","SLIM","Sockets","Bootstrap","JSON","Unix","AWS","Heroku","GraphQL","Ruby on Rails","ReactJS","ReduxJS","ReduxJS","NodeJS","RSpec","jQuery"],
+    "technical-skills": ["Java", "Javascript","Ruby","C","Github","Sql","Nosql","Html","Css","Scss","Slim","Sockets","Bootstrap","Json","Unix","Aws","Heroku","GraphQl","Rails","ReactJs","ReduxJs","NodeJs","RSpec","jQuery"],
     "colors": ["violet", "cornflowerblue", "gold", "orange","turquoise", "tomato", "greenyellow"],
     "symbols": ["circle", "star", "square", "triangleUp","triangleDown", "diamond", "plus"]
+  },
+  "experience": {
+    "heading": "My experience",
+    "projects": [
+      { "name": "Insightzclub", "address": "http://insightzclub.com", "src": "insightzclub.png" },
+      { "name": "Kandy Developer Portal", "address": "https://www.kandy.io/company/developer-portal", "src": "kandy.png" },
+      { "name": "Dubai Future Talks", "address": "http://futuretalks.ae/", "src": "dft.png" },
+      { "name": "DocBuddy", "address": "https://docbuddy.com/", "src": "docbuddy.png" }
+    ]
   },
   "aboutHeading": "About Me",
   "showInstaProfilePic": true,
@@ -80,7 +80,7 @@
   "gitHubLink": "https://api.github.com/users/",
   "gitHubUsername": "Brisingr1992",
   "gitHubQuerry": "/repos?sort=updated&direction=desc",
-  "projectsLength": 4,
+  "projectsLength": 6,
   "showNavigationbar": true,
-  "showBlog": true
+  "showBlog": false
 }

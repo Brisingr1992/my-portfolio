@@ -10,6 +10,8 @@ import {
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
+import Experience from "./components/home/Experience";
+import ContactMe from "./components/home/ContactMe";
 import Skills from "./components/home/Skills";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -22,7 +24,9 @@ const Home = () => {
       <MainBody />
       <AboutMe />
       <Skills />
+      <Experience />
       <Project />
+      <ContactMe />
     </Fragment>
   );
 };

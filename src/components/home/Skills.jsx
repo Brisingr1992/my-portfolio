@@ -47,8 +47,6 @@ class Skills extends React.Component {
 
     let bars = [];
     Object.entries(skillsList).forEach(([key, value]) => {
-      console.log(key);
-      console.log(value);
       let bar = <VictoryBar
           name={key}
           data={value.data}
@@ -70,7 +68,7 @@ class Skills extends React.Component {
               {/* <VictoryChart animate={{ duration: 2000, easing: "bounce" }}> */}
                 <VictoryScatter
                   data={this.state.scatterData}
-                  animate={{ duration: 2000, easing: "bounce" }}
+                  animate={{ duration: 3000, easing: "bounce" }}
                   style={{
                     data: {
                       fill: ({ datum }) => datum.fill,
